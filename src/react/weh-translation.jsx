@@ -20,6 +20,8 @@ import WehHeader from 'react/weh-header';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'css/weh-form-states.css';
 
+const manifest = browser.runtime.getManifest();
+
 const initialState = {};
 var needRestore = false;
 
